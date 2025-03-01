@@ -26,3 +26,17 @@ document.getElementById("complete-btn").addEventListener("click", function(event
         document.getElementById("cmnt1").remove();
     })
 
+
+
+    // discover new page
+    document.getElementById("new-one").addEventListener("click",function(event){
+      event.preventDefault();
+      window.location.href = "QNA.html"; 
+  
+  })
+
+
+  //color change
+  document.getElementById("color-btn").addEventListener("click",function(){
+    document.body.style.backgroundColor = genrandomColor();
+  })
