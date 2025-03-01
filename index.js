@@ -1,4 +1,5 @@
 
+document.getElementById('currentDate').innerHTML = new Date().toDateString();
 
 document.getElementById("complete-btn").addEventListener("click", function(event){
         event.preventDefault();
