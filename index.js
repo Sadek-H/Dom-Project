@@ -116,7 +116,8 @@ document.getElementById("cmnt5").style.backgroundColor = "#F4F7FF"
 
 document.getElementById("complete-btn6").addEventListener("click", function(event){
   event.preventDefault();
-  alert("Board updated Successfully")
+  alert("Board updated Successfully");
+  alert("congrates!!! You have completed all the current task")
   let NumMinus = document.getElementById("number-decrease").innerHTML ;
   convertNumMinus = parseInt(NumMinus);
 Minus = convertNumMinus - 1 ;
@@ -133,13 +134,6 @@ document.getElementById("cmnt6").innerHTML= `You have completed the task ${docum
 
 document.getElementById("cmnt6").style.backgroundColor = "#F4F7FF"
 })
-
-
-
-
-
-
-
 
 
 
