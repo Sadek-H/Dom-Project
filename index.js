@@ -1,6 +1,18 @@
+let today = new Date();
+
+let weekDay = {
+  weekday : "short"
+}
+let date = {
+  month: "short",
+  day : "2-digit",
+  year:"numeric"
+}
+document.getElementById("week").textContent = today.toLocaleDateString("en-GB",weekDay) + ",";
+document.getElementById("month-year").textContent = today.toLocaleDateString("en-GB",date);
 
 
-document.getElementById("currentDate").innerHTML = new Date().toDateString();
+
 
 document.getElementById("complete-btn").addEventListener("click", function(event){
         event.preventDefault();
